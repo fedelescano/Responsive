@@ -70,7 +70,7 @@ footer{
 
 @media (min-width: 1024px) { 
     .navbar{
-        grid-template-areas:
+        grid-template-areas:/*Se ubican los elemetos html de nuestra pagina web dentro de una cuadricula*/
         "left-nav left-nav logo rigth-nav rigth-nav";
         grid-template-rows: 50px;
         grid-template-columns: repeat(5, 1fr);
