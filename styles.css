@@ -68,7 +68,7 @@ footer{
     background-color: beige;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { 
     .navbar{
         grid-template-areas:
         "left-nav left-nav logo rigth-nav rigth-nav";
@@ -84,3 +84,11 @@ footer{
         justify-content: space-around;
     }
 }
+
+/*@MEDIA: declaración CSS que se utiliza como parámetro para 
+ saber cuándo utilizar otra declaración de estilo en base a  
+ las dimensiones del dispositivo en donde se visualiza la página web.*/
+
+ /*A diferencia de max-width que define el tamaño máximo, min-width 
+  define el mínimo tamaño que un elemento puede tener.*/
+
